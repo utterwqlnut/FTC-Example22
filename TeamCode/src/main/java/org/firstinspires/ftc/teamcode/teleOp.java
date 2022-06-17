@@ -17,6 +17,6 @@ public class teleOp extends CommandOpMode {
         ds = new Motor(hardwareMap, "duckSpin");
         ds.setRunMode(Motor.RunMode.RawPower);
         g1 = new GamepadEx(gamepad1);
-        g1.getGamepadButton(GamepadKeys.Button.RIGHT_BUMPER).toggleWhenPressed(new DuckyCommand());ß
+        g1.getGamepadButton(GamepadKeys.Button.RIGHT_BUMPER).toggleWhenPressed(new DuckyCommand());
     }
 }
