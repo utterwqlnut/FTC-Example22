@@ -10,11 +10,6 @@ public class DuckyCommand extends CommandBase {
         this.ds = ds;
         addRequirements(ds);
     }
-
-    public DuckyCommand() {
-
-    }
-
     @Override
     public void execute(){
         ds.forward();
